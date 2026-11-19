@@ -20,14 +20,13 @@ $textoSeguroMensagem = htmlspecialchars($mensagem);
   <form method="POST" action="">
         <label for="peso_input">Nome : </label>
         <input type="text" id="nome_input" name="nome" required>
-        <button type="submit">Enviar</button>
-    </form>
-   <form method="POST" action="">
+      <br>
         <label for="altura_input">Mensagem : </label>
         <input type="text" id="mensagem_input" name="mensagem" required>
+        <br>
         <button type="submit">Enviar</button>
     </form>
- <p> Nome:<?= $nome ?? '' ?> </p>
-  <p> Mensagem:<?= $mensagem ?? '' ?> </p>
+ <p> Nome:<?= $textoSeguroNome ?? '' ?> </p>
+  <p> Mensagem:<?= $textoSeguroMensagem ?? '' ?> </p>
 </body> 
 </html>
