@@ -18,10 +18,10 @@ $textoSeguroMensagem = htmlspecialchars($mensagem);
 <body> 
   <h1>Contato</h1> 
   <form method="POST" action="">
-        <label for="peso_input">Nome : </label>
+        <label for="nome_input">Nome : </label>
         <input type="text" id="nome_input" name="nome" required>
       <br>
-        <label for="altura_input">Mensagem : </label>
+        <label for="mensagem_input">Mensagem : </label>
         <input type="text" id="mensagem_input" name="mensagem" required>
         <br>
         <button type="submit">Enviar</button>
